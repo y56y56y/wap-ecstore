@@ -1,5 +1,8 @@
 #Wrapper {
 	width: 176px;
+	
+	font-size: 10px;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif
 }
 
 #Chrome {
