@@ -41,9 +41,19 @@
 			</div>
 		</form>
 		<br/>
+		<!-- These images are not part of this site, just try to see how it looks, these lines can be removed later
+		<img src="images/a.jpg" />
+		<img src="images/b.jpg" />
+		<img src="images/c.jpg" /><img src="images/d.gif" />
+		<img src="images/fastfood.jpg" />
+		<img src="images/bakery.jpg" alt="bakery"/>
+		<img src="images/grocery.jpg" />
+		<img src="images/magazine.jpg" alt="magazine"/>
+		<img src="images/burger.jpg" />
+		-->
 		<br/>
 		<div id="Main">
-			Go to:<br/>
+			<p style="font-size: 20px"><b>Go to:</b></p><br/>
 			<ul class="nav">
 				<li><a href="category.php">Shopping</a></li>
 				<li><a href="register.php">Register Here</a></li>
@@ -58,7 +68,7 @@
 				<a href="http://www.inspiritysoft.com" class="icon"><img src="images/icon-youtube.png" /></a>
 				<br/>	   
                 <a href="http://www.inspiritysoft.com">Standard Site</a>
-
+				<a href="tel: 123-456-7890" target="_self">123-456-7890</a>
                <p id="Copyright">Copyright (c) 2011 - All Rights Reserved</p>
 			   <p id="Copyright">Powered by Inspirity, Inc.</p>
            </footer>
