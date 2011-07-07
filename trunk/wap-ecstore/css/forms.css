@@ -1,0 +1,99 @@
+
+/*============================================================================
+  Forms - define the style of form elements
+==============================================================================*/
+
+.button-primary,
+.button-secondary {
+        -webkit-border-radius: 8px;
+    border-radius:  8px;
+}
+
+    #FormLocator .button-primary {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom-color: rgba(255, 255, 255, 0.2);
+    }
+    
+    #FormLocator .button-secondary,
+    #FormLocator input {
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-bottom-color: rgba(255, 255, 255, 0.5);
+    }
+    
+    #FormSearch .button-primary,
+    #FormSearch .button-secondary,
+    #FormSearch input {
+        border: 1px solid rgba(0, 0, 0, 0.4);
+        border-bottom-color: rgba(255, 255, 255, 0.2);
+    }
+    
+    #Content .button-primary {
+        border: 1px solid rgba(0, 0, 0, 0.02);
+        border-bottom-color: rgba(255, 255, 255, 0.2);
+    }
+    
+    #Content .button-secondary {
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        border-bottom-color: rgba(255, 255, 255, 0.2);
+    }
+
+#Chrome input {
+    height: 27px;
+    padding: 0 7px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.button-primary,
+.button-secondary {
+    display: inline-block;
+    margin: 0;
+    padding: 7px 9px;
+    line-height: 100%;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button-primary {
+    background: #9a2e00;
+        background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dd6b02), color-stop(0.5, #b74801), color-stop(0.5, #aa4801), to(#962f00));
+        -webkit-box-shadow: inset 0 -1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 -1px 2px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+#Chrome .button-secondary {
+    background: #f4eee2;
+        background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), color-stop(0.5, #fff), color-stop(0.5, #f4eee2), to(#f4eee2));
+    color: #a4540d;
+}
+
+#Content .button-secondary {
+    background: #a18e79;
+        background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#c4b29e), color-stop(0.5, #a89683), color-stop(0.5, #9e8c78), to(#a18e79));
+    color: #fff;
+}
+
+#LocatorCurrent {
+    background: url('../images/btn-bullseye.png') 50% 50% no-repeat, -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dd6b02), color-stop(0.5, #b74801), color-stop(0.5, #aa4801), to(#962f00));
+}
+
+/* ---- [Contact] -------------------------------- */
+
+.field {
+    margin-bottom: 10px;
+}
+.field input,
+.field select {
+    font-size: 15px;
+}
+
+.field input {
+    width: 268px;
+}
+
+.contact-page button {
+    padding-left: 16px;
+    padding-right: 16px;
+}

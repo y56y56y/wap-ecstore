@@ -1,0 +1,18 @@
+#Wrapper {
+	width: 176px;
+}
+
+#Chrome {
+    position: relative;
+    background: #6d5f44 url('../images/bg-chrome.jpg') 50% 0 no-repeat;
+}
+
+#Logo {
+    height: 45px;
+	background:  url(../images/quickmart_topbar.png)50% 0  no-repeat;      
+}
+
+#NavLocator {
+	background: #9a2e00;
+		background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ea7002), to(#9a2e00));
+}
