@@ -1,0 +1,71 @@
+/*============================================================================
+  Browser Reset - Attempst to unify the default appearance of html elements 
+                  among different browsers
+==============================================================================*/
+
+/* Global reset of paddings, margins, border and font related attributes */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+del, dfn, em, img, ins, kbd, q, samp, small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+caption, tbody, tfoot, thead, tr, th, td,
+article, aside, figure, footer, header, hgroup, menu, nav, section, menu,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display:block;
+}
+
+/* Suppress link outlining */
+a, a img, :focus {
+    outline: 0;
+}
+
+/* Removes borders around hyperlink images */
+a img, :link img, :visited img {
+    border: none;
+}
+
+/* Removes any style from ordered and unordered lists */
+ol, ul {
+    list-style: none;
+}
+
+/* tables still need 'cellspacing="0" in the markup 
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}*/
+
+/* Sets default values for text alignment and weigh */
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+}
+
+/* Defines table vertical alignment 
+table, td, th {
+    vertical-align: middle;
+}*/
+
+
+blockquote:before, blockquote:after, 
+q:before, q:after {
+    content: "";
+}
+
+blockquote, q {
+    quotes: "" "";
+}

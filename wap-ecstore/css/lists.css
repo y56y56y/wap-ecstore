@@ -1,0 +1,50 @@
+
+/*============================================================================
+  List Items - defines the style of list elements (not layout related)
+==============================================================================*/
+
+ol {
+    list-style-position: outside;
+    list-style-type: decimal;
+}
+
+dl {
+    margin: 0 0 10px 0;
+}
+
+dl dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 10px;
+}
+
+.first-child {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.last-child {
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+/* ---- [Inline Lists] ------------------------- */
+
+ul.inline-list,
+ul.inline-list li {
+    display: inline;
+}
+
+.bullet ul,
+ul.bullet {
+    list-style: disc;
+    list-style-position: outside;
+    margin-left: 20px;
+}
+
+.bullet ul li,
+ul.bullet li {
+    margin-bottom: 10px;
+}
