@@ -1,5 +1,5 @@
 <?php include 'header.php'?>
-		<form action="choice.php" method="post">
+		<!--<form action="choice.php" method="post">
 			<div class="container">
 				<div>Enter Zip or City Name</div>
 				<div>
@@ -7,9 +7,13 @@
 					<input style="float:left" type="submit" value="submit"/>
 				</div>
 			</div>
-		</form>
+		</form>-->
+		
+		<a href="http://www.google.com/xhtml?site=local&hl=en&daddr=%20&near=%20">Location using Google Maps wap</a>
+		<br/>
+		<a href="http://wap.mapquest.com">Location using MapQuest</a>
 
-		<form action="sphider/search.php" method="post">
+		<form action="sphider/search.php" method="get">
 			<div class="container">
 				<div>Search QuickMart</div>
 				<div class="wrapper">

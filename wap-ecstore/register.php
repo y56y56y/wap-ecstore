@@ -13,19 +13,5 @@
 				</form>
 			</div>
 
-			<footer id="Footer">
-				<div id="MuzakPlayer"></div>
-				<a href="http://www.inspiritysoft.com" class="icon"><img src="images/icon-facebook.png" /></a>
-				<a href="http://www.inspiritysoft.com" class="icon"><img src="images/icon-twitter.png" /></a>
-				<a href="http://www.inspiritysoft.com" class="icon"><img src="images/icon-youtube.png" /></a>
-				<br/>	   
-                <a href="http://www.inspiritysoft.com">Standard Site</a>
-
-               <p id="Copyright">Copyright (c) 2011 - All Rights Reserved</p>
-			   <p id="Copyright">Powered by Inspirity, Inc.</p>
-           </footer>
-       </div>
-   </div>
-</body>
-</html>
+<?php include 'footer.php'?>
 
