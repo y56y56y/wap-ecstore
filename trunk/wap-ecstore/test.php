@@ -1,21 +1,7 @@
 <?php include 'header.php'?>
 
-<?php
-session_start();
-$cart_array = array();
-$_SESSION['cart_array'] = $cart_array;
-?>
+<img src="http://maps.google.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=11&size=100x100&maptype=roadmap
+&markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:green%7Clabel:G%7C40.711614,-74.012318
+&markers=color:red%7Ccolor:red%7Clabel:C%7C40.718217,-73.998284&sensor=false" />
 
-	<p style="font-size: 20px"><b>Go to:</b></p><br/>
-	<ul>
-		<li><a href="#about">About Us</a></li>
-		<li><a href="category.php">Shopping</a></li>
-		<li><a href="register.php">Register Here</a></li>
-		<li><a href="contact.php">Contact Us</a></li>
-	</ul>
-	<br/>
-	<br/>
-	<a id="about" name="about">About Us</a>
-	There are more mobile phones in the world than televisions and PCs combined. And millions of people are using those mobile phones to connect to the Internet. To see your site the same way these millions of mobile users do, try the dotMobi mobile phone emulator, which "emulates" a real mobile phone Web browser. 
-    <br/>
 <?php include 'footer.php'?>
