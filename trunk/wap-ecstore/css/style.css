@@ -1,8 +1,10 @@
 #Wrapper {
 	width: 176px;
-	
 	font-size: 10px;
-	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif
+}
+
+#input {
+	width: 50%;
 }
 
 #Chrome {
@@ -17,5 +19,19 @@
 
 #NavLocator {
 	background: #9a2e00;
-		background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ea7002), to(#9a2e00));
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ea7002), to(#9a2e00));
+}
+
+#product {
+	margin-left: 5px;
+	width: 75px;
+	height: 100px;
+	
+	float:left;
+}
+
+#product img {
+	padding-left: 5%;
+	width: 95%;
+	height: 70px;
 }

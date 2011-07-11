@@ -1,24 +1,5 @@
 <?php include 'header.php'?>
-		<form action="choice.php" method="post">
-			<div class="container">
-				<div>Enter Zip or City Name</div>
-				<div>
-					<div id="input"><input name="location" type="text" /></div>
-					<input style="float:left" type="submit" value="submit"/>
-				</div>
-			</div>
-		</form>
 
-		<form action="sphider/search.php" method="post">
-			<div class="container">
-				<div>Search QuickMart</div>
-				<div class="wrapper">
-					<div id="input"><input name="query" type="text" /></div>
-					<input style="float:left" type="submit" value="Search" />
-				</div>
-			</div>
-		</form>
-		<br/>
 <?php
 session_start();
 $cart_array = array();
