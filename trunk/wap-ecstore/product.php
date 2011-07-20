@@ -31,7 +31,7 @@ if (isset($_POST['submit'])) {
 	array_push($cart_array, $arrProduct);
 	echo print_r($arrProduct . "....." . $cart_array);
 	$_SESSION['cart_array'] = $cart_array;
-	header("location: cart.php");
+	header("location: /dev/wap/cart.php");
 }
 ?>
 

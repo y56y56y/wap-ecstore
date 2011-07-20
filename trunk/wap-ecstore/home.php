@@ -27,6 +27,7 @@
 session_start();
 $cart_array = array();
 $_SESSION['cart_array'] = $cart_array;
+// echo print_r($_SESSION);
 ?>
 
 	<p style="font-size: 20px"><b>Go to:</b></p><br/>
